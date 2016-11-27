@@ -45,7 +45,13 @@ For more advanced usage, check the wiki [here](https://github.com/obartra/ssim/w
 
 ## CLI
 
-There's also a small CLI tool that you can call from your npm scripts as `ssim <img1> <img2>`. Run `ssim --help` to see additional options.
+Installing ssim globally (`npm install -g ssim.js`) makes the `ssim` CLI tool globally available. You can then use it as follows:
+
+```bash
+ssim path/to/img1 path/to/img2
+```
+
+Which returns the mean ssim value for the image. Run `ssim --help` to see additional options.
 
 ### Output
 
